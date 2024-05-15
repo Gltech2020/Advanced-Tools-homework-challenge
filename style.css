@@ -3,7 +3,14 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media(max-width: 600px)
+h1, p{
+  text-align: centre;
+}
 
+p{
+  font-size: 14px;
+}
 body {
   margin-top: 100px;
 }
